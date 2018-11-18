@@ -1,12 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: none;
+            font-size: 20px;
+        }
+
+        .title {
+            text-shadow: -1px -1px 1px #aaa,
+                0px 4px 1px rgba(0, 0, 0, 0.5),
+                4px 4px 5px rgba(0, 0, 0, 0.7),
+                0px 0px 7px rgba(0, 0, 0, 0.4);
+        }
+
+        .background {
+            margin: 50px 0 0 500px;
+            width: 500px;
+            height: 800px;
+            background-color: #e6e6e6;
+            border: 1px solid #333;
+        }
+
+        .title {
+            line-height: 92px;
+            text-align: center;
+            font-size: 39px;
+            color: #333;
+        }
+
+        .info {
+            width: 407px;
+            height: 139px;
+            margin-left: 30px;
+            border: 1px solid #333;
+            padding-left: 30px;
+            padding-top: 20px;
+          
+
+        }
+
+        .learn {
+            width: 407px;
+            height: 172px;
+            margin-left: 30px;
+            margin-top: 30px;
+            border: 1px solid #333;
+            padding-left: 30px;
+            padding-top: 20px;
+           
+        }
+
+        .exper {
+            width: 407px;
+            height: 170px;
+            margin-left: 30px;
+            margin-top: 30px;
+            border: 1px solid #333;
+            padding-left: 30px;
+            padding-top: 20px;
+           
+        }
+
+        .email {
+            position: relative;
+        }
+
+        .email .one {
+            position: absolute;
+            position: absolute;
+            top: 18px;
+            right: 28px;
+        }
+
+        .email .two {
+            position: absolute;
+            position: absolute;
+            top: 44px;
+            right: 115px;
+        }
+
+        .info .msg {
+            color: blue;
+            font-weight: bold;
+            font-size: 22px;
+text-shadow: -1px -1px 1px #aaa,
+0px 4px 1px rgba(0, 0, 0, 0.5),
+4px 4px 5px rgba(0, 0, 0, 0.7),
+0px 0px 7px rgba(0, 0, 0, 0.4);
+        }
+
+        .info ul {
+            margin-top: 10px;
+        }
+
+        .content {
+            margin-top: 12px;
+        }
+
+        .exper span {
+            color: blue;
+            font-weight: bold;
+            font-size: 22px;
+text-shadow: -1px -1px 1px #aaa,
+0px 4px 1px rgba(0, 0, 0, 0.5),
+4px 4px 5px rgba(0, 0, 0, 0.7),
+0px 0px 7px rgba(0, 0, 0, 0.4);
+        }
+
+        .learn span {
+            color: blue;
+            font-weight: bold;
+            font-size: 22px;
+text-shadow: -1px -1px 1px #aaa,
+0px 4px 1px rgba(0, 0, 0, 0.5),
+4px 4px 5px rgba(0, 0, 0, 0.7),
+0px 0px 7px #00000066;
+        }
+        .img{
+margin-top: 10px;
+            
+            position: relative;
+        }
+        .img span{
+            margin-right: 20px;
+        }
+    </style>
 </head>
+
 <body>
-    111
+    <div class="background">
+        <div class="title">
+            简历
+        </div>
+        <div class="info">
+            <span class="msg"> 个人信息：</span>
+            <ul claas="self">
+                <li>
+                    <span>姓名:袁梦</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <span>电话:15901162256</span>
+                </li>
+                <li>
+                    <span>地址:陕西省安康市旬阳县</span>
+                </li>
+                <li>
+                    <span>学历:本科</span>
+
+                </li>
+
+            </ul>
+        </div>
+        <div class="learn">
+            <span> 兴趣爱好：</span>
+            <div class="img">
+               <span class="one"><img src="./1.jpg" alt="" style="width:100px;height: 100px;"></span>
+               <span class="two"><img src="./2.jpg" alt="" style="width:100px;height: 100px;"></span>
+               <span class="three"><img src="./3.jpg" alt="" style="width:100px;height: 100px;"></span>
+            </div>
+        </div>
+        <div class="exper">
+            <span>工作经历:</span>
+            <div class="content">
+                <p>2017.3:3M科技有限公司</p>
+                <p>2017.10:爱前端科技有限公司</p>
+                <p>2018.10:妈妈购电商平台</p>
+            </div>
+        </div>
+        <div class="email">
+            <span class="one">邮箱：15901162256@139.com </span>
+            <span class="two">电话：15901162256</span>
+        </div>
+    </div>
 </body>
+
 </html>
