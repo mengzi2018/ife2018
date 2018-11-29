@@ -8,5 +8,14 @@ document.getElementById("hobby3").onclick = function () {
     console.log("电影")
 }
 document.getElementById("resume").onclick = function () {
-    alert("你好!")
+    var content=''
+    var day = new Date()
+    var time = day.getHours()
+    if(time >=0 && time<12){
+        content="goodMorning"
+    }else if(time>=12&&time<18){
+        content="goodafternoon"
+    }else if(time>=14&&time<24){
+        content = "goodevening"
+    }
 }
