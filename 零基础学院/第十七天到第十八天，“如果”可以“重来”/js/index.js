@@ -13,9 +13,11 @@ document.getElementById("resume").onclick = function () {
     var time = day.getHours()
     if(time >=0 && time<12){
         content="goodMorning"
-    }else if(time>=12&&time<18){
+    }else if(time>=12&&time<=18){
         content="goodafternoon"
-    }else if(time>=14&&time<24){
+    }else if(time<18){
         content = "goodevening"
     }
+    alert(content)
+    console.log(time)
 }
